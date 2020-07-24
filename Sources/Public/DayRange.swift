@@ -17,7 +17,7 @@ import Foundation
 
 // MARK: - DayRange
 
-open typealias DayRange = ClosedRange<Day>
+public typealias DayRange = ClosedRange<Day>
 
 extension DayRange {
 

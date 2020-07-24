@@ -19,7 +19,7 @@ import Foundation
 
 /// Represents a month (with a corresponding year) in a particular calendar. All months are assumed to have been instantiated with the
 /// same `Calendar`, which is enforced throughout the implementation.
-open struct Month {
+public struct Month {
 
   // MARK: Lifecycle
 
