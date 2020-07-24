@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A87E8BA24CA7FFF0037184B /* Calendar+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E69432484784D00A8BCC7 /* Calendar+Helpers.swift */; };
+		1A87E8BB24CA80970037184B /* DayRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E694124846EB400A8BCC7 /* DayRange.swift */; };
 		9396F3CC2483261B008AD306 /* HorizonCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9396F3C22483261B008AD306 /* HorizonCalendar.framework */; };
 		9396F3DD24832715008AD306 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9396F3DC24832715008AD306 /* README.md */; };
 		9396F3DF248327C2008AD306 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9396F3DE248327C2008AD306 /* LICENSE */; };
@@ -362,6 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				939E69582484B21400A8BCC7 /* FrameProviderTests.swift in Sources */,
+				1A87E8BB24CA80970037184B /* DayRange.swift in Sources */,
+				1A87E8BA24CA7FFF0037184B /* Calendar+Helpers.swift in Sources */,
 				93FA64EC248CDD3E00A8B7B1 /* MonthHelperTests.swift in Sources */,
 				93FA64F0248D84FE00A8B7B1 /* DayOfWeekPositionTests.swift in Sources */,
 				939E695D2484B22A00A8BCC7 /* MonthTests.swift in Sources */,

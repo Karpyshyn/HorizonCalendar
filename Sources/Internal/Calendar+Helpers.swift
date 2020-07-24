@@ -167,3 +167,25 @@ extension Calendar {
   }
 
 }
+
+
+open class CalendarClassWrapper {
+    private let calendar = Calendar(identifier: .gregorian)
+    
+    func month(containing date: Date) -> Month {
+       return Month(
+         era: calendar.component(.era, from: date),
+         year: calendar.component(.year, from: date),
+         month: calendar.component(.month, from: date),
+         isInGregorianCalendar: calendar.identifier == .gregorian)
+     }
+    
+    func day(containing date: Date) -> Day {
+      let month = Month(
+        era: calendar.component(.era, from: date),
+        year: calendar.component(.year, from: date),
+        month: calendar.component(.month, from: date),
+        isInGregorianCalendar: calendar.identifier == .gregorian)
+      return Day(month: month, day: calendar.component(.day, from: date))
+    }
+}
