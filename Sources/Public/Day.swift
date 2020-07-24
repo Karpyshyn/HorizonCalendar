@@ -19,7 +19,7 @@ import Foundation
 
 /// Represents a day (with a corresponding year and month) in a particular calendar. All days are assumed to have been instantiated
 /// with the same `Calendar`, which is enforced throughout the implementation.
-public struct Day {
+open struct Day {
 
   // MARK: Lifecycle
 
